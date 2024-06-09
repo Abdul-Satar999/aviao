@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GameHistory
+comment1.params=result
+comment1.target=void\ addResult(GameResult)
+comment2.params=
+comment2.target=java.util.ArrayList\ getHistory()
+numComments=3

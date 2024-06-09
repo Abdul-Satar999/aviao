@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=MyWorld4
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyWorld4\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=MyWorld4()
+comment2.params=
+comment2.target=void\ scheduleBombAppearance()
+comment3.params=
+comment3.target=void\ appearRandomly()
+comment4.params=bomba
+comment4.target=void\ disappear(Bomba)
+comment4.text=\ \ private\ void\ checkBombPosition(Bomba\ bomba)\ {\r\n\ \ \ \ \ \ \ \ //\ Verifica\ se\ a\ bomba\ est\u00E1\ na\ mesma\ posi\u00E7\u00E3o\ que\ o\ avi\u00E3o\r\n\ \ \ \ \ \ \ \ aviao\ aviao\ \=\ (aviao)\ getObjects(aviao.class).get(0);\r\n\ \ \ \ \ \ \ \ if\ (bomba.getX()\ \=\=\ aviao.getX()\ &&\ bomba.getY()\ \=\=\ aviao.getY())\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ //\ Se\ a\ bomba\ est\u00E1\ na\ mesma\ posi\u00E7\u00E3o\ que\ o\ avi\u00E3o,\ remove\ a\ bomba\ e\ explode\ o\ avi\u00E3o\r\n\ \ \ \ \ \ \ \ \ \ \ \ removeObject(bomba);\r\n\ \ \ \ \ \ \ \ \ \ \ \ aviao.explodir();\r\n\ \ \ \ \ \ \ \ }\ else\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ //\ Se\ a\ bomba\ n\u00E3o\ est\u00E1\ na\ mesma\ posi\u00E7\u00E3o\ que\ o\ avi\u00E3o,\ chama\ o\ m\u00E9todo\ para\ a\ bomba\ desaparecer\r\n\ \ \ \ \ \ \ \ \ \ \ \ disappear(bomba);\r\n\ \ \ \ \ \ \ \ }\r\n}
+comment5.params=
+comment5.target=void\ prepare()
+comment6.params=
+comment6.target=void\ showRestartButton()
+comment7.params=
+comment7.target=void\ stopped()
+comment8.params=
+comment8.target=void\ act()
+comment9.params=
+comment9.target=void\ AddActor()
+numComments=10

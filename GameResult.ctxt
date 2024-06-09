@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=GameResult
+comment1.params=score\ level
+comment1.target=GameResult(int,\ int)
+comment2.params=
+comment2.target=int\ getScore()
+comment3.params=
+comment3.target=int\ getLevel()
+numComments=4

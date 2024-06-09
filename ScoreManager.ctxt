@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ScoreManager
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ScoreManager\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=points
+comment1.target=void\ addScore(int)
+comment2.params=
+comment2.target=int\ getScore()
+comment3.params=
+comment3.target=void\ resetScore()
+numComments=4
